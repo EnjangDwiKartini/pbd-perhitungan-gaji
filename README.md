@@ -13,17 +13,33 @@
     ~~~
     Sistem Operasi : Windows 10
     Bahasa Pemrograman : JavaScript
-    Database Server : MySQL
-    Web Server : Apache 
+    Database Server : MongoDB
     Text Editor : Visual Studio Code / NodeJS
     Web Browser : Chrome 
     ~~~
 * instalasi development tools 
-    NodeJS, Visual Studio Code , Apache
+    NodeJS, Visual Studio Code , MongoDB
 * Lisensi 
     NodeJS  : https://nodejs.org/en/download/
     Visual Studio Code  : https://code.visualstudio.com/Download
-    Apache : https://www.apachefriends.org/download.html
+# Change Logs 
+## Senin, 7 Mei 2018
+   - Pada Pertemuan ini saya mencoba untuk menginstall data - data yang diperlukan untuk membuat aplikasi dengan node js dan mongoDB
+# Change Logs 
+## Senin, 14 Mei 2018
+    - Pada pertemuan ini saya membuat database dbgaji yang disimpan dalam folder db dan menghubungkan database ke mongoDB
+# Change Logs 
+## Senin, 21 Mei 2018
+    - Pada Pertemuan ini saya membuat project baru yang saya gunakan untuk mempelajari web CRUD dengan nodeJS dan mongoDB
+# Change Logs 
+## Senin, 28 Mei 2018
+    - Melanjutkan membuat perintah input data dari project yang sebelumnya
+# Change Logs 
+## Senin, 4 Juni 2018
+    - Melanjutkan membuat perintah hapus data dari project yang sebelumnya
+# Change  Logs
+## Senin, 25 Juni 2016
+- menjalankan  web CRUD NodeJS MongoDB https://github.com/EnjangDwiKartini/NodeJS-MongoDB-Belajar
 
 
 
