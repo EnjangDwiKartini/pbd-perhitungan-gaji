@@ -8,6 +8,10 @@ var cookieParser = require('cookie-parser');
 
 var logger = require('morgan');
 
+// Database
+var mongo = require('mongodb');
+var monk = require('monk');
+var db = monk('localhost:27017/dbgaji');
 
 
 var indexRouter = require('./routes/index');
@@ -15,18 +19,13 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 
-
 var app = express();
-
-
 
 // view engine setup
 
 app.set('views', path.join(__dirname, 'views'));
 
 app.set('view engine', 'ejs');
-
-
 
 app.use(logger('dev'));
 
@@ -74,6 +73,12 @@ app.use(function(err, req, res, next) {
 
   res.render('error');
 
+});
+
+// Make our db accessible to our router
+app.use(function(req,res,next){
+  req.db = db;
+  next();
 });
 
 

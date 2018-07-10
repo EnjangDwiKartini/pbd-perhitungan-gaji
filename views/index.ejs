@@ -1,11 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+<% include part/head %>
+<body>
+    <div class="container"></div>
+    <center>
+    <h2>DATA KARYAWAN PT MAJU PANTANG MUNDUR</h2>
+  </center>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Alamat</th>
+          <th>Jabatan</th>
+          <th>Gaji Pokok</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bejo</td>
+          <td>Banguntapan Bantul</td>
+          <td>Manajer</td>
+          <td>10000000</td>
+        </tr>
+        <tr>
+            <td>Sri</td>
+            <td>Gunung Kidul</td>
+            <td>Supervisor</td>
+            <td>8000000</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
   </body>
-</html>
+  <% include part/footer %>
