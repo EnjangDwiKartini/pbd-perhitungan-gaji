@@ -4,30 +4,61 @@
     <center>
     <h2>DATA KARYAWAN PT MAJU PANTANG MUNDUR</h2>
   </center>
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>Nama</th>
-          <th>Alamat</th>
-          <th>Jabatan</th>
-          <th>Gaji Pokok</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Bejo</td>
-          <td>Banguntapan Bantul</td>
-          <td>Manajer</td>
-          <td>10000000</td>
-        </tr>
-        <tr>
-            <td>Sri</td>
-            <td>Gunung Kidul</td>
-            <td>Supervisor</td>
-            <td>8000000</td>
-          </tr>
-      </tbody>
-    </table>
-  </div>
-  </body>
+  <html>
+<head>
+<title>Hitung Gaji Pokok</title>
+<script type="text/javascript">
+function hitung()
+{
+        if(document.getElementById("gp").value == "")
+        {
+        alert("Gaji Pokok Tidak Boleh Kosong");
+        document.getElementById("gp").focus;
+        return false;
+        }
+var gaji = document.getElementById("gp").value;
+        var a = eval(gaji) * 0.2;
+        var b = eval(gaji) * 0.05;
+        var c = eval(gaji) + eval(a) - eval(b);
+        document.getElementById("tunj").value = a;
+        document.getElementById("pjk").value = b;
+        document.getElementById("gt").value = c;
+        }
+        
+</script>
+</head>
+<body>
+<tr>
+  <td>Nama Karyawan : <input type="text" id="nm"></td>
+  <br>
+  <td>Alamat :  <input type="text" id="alamat"></td>
+  <br>
+  </tr>
+<tr>
+  <td>Jabatan : <select size="1" id="jabatan">
+                            <option>Direktur</option>
+                            <option>Manager</option>
+                            <option>Accounting</option>
+                            <option>Marketing</option>
+                            <option>Staff Produksi</option>
+                            <option>Personalia</option>
+  </select>
+  </td>
+  <br>
+  <td>Gaji Pokok  : <input type="text" id="gp"></td> 
+  <br>
+</tr>
+  <td>Tunjangan :<input type="text" id="tunj"></td>
+  <br>
+  <td>Pajak (5%) : <input type="text" id="pjk"></td>
+  <br>
+  <td>Gaji Total  : <input type="text" id="gt"></td>
+</tr>
+  <br>
+            <input type="button" value="Hitung" onclick="hitung()">
+            <input type="button" value="Simpan" onclick="simpan()">
+</pre>
+</body>
+</html> 
+</body>
   <% include part/footer %>
