@@ -27,7 +27,27 @@
    - Pada Pertemuan ini saya mencoba untuk menginstall data - data yang diperlukan untuk membuat aplikasi dengan node js dan mongoDB
 # Change Logs 
 ## Senin, 14 Mei 2018
-    - Pada pertemuan ini saya membuat database dbgaji yang disimpan dalam folder db dan menghubungkan database ke mongoDB
+    - Pada pertemuan ini saya membuat database dbgaji dan form input data :
+    <body>
+<form>
+  <td>Nama Karyawan : <input type="text" id="nm"></td><br><br>
+  <td>Alamat :  <input type="text" id="alamat"></td><br><br>
+  <td>Jabatan : <select size="1" id="jabatan">
+                            <option>Direktur</option>
+                            <option>Manager</option>
+                            <option>Accounting</option>
+                            <option>Marketing</option>
+                            <option>Staff Produksi</option>
+                            <option>Personalia</option> </select>
+  </td><br><br>
+  <td>Gaji Pokok  : <input type="text" id="gp"></td> <br><br>
+  <td>Tunjangan :<input type="text" id="tunj"></td><br><br>
+  <td>Pajak (5%) : <input type="text" id="pjk"></td><br><br>
+  <td>Gaji Total  : <input type="text" id="gt"></td><br><br>
+      <input type="button" value="Hitung" onclick="hitung()">
+      <input type="reset" value="Reset" >
+      <input type="submit" value="Simpan" onclick="simpan()">
+</form>
 # Change Logs 
 ## Senin, 21 Mei 2018
     - Pada Pertemuan ini saya membuat project baru yang saya gunakan untuk mempelajari web CRUD dengan nodeJS dan mongoDB
