@@ -31,10 +31,10 @@
     <body>
     
     ~~~~
-<form>
-  <td>Nama Karyawan : <input type="text" id="nm"></td><br><br>
-  <td>Alamat :  <input type="text" id="alamat"></td><br><br>
-  <td>Jabatan : <select size="1" id="jabatan">
+    <form>
+    <td>Nama Karyawan : <input type="text" id="nm"></td><br><br>
+    <td>Alamat :  <input type="text" id="alamat"></td><br><br>
+    <td>Jabatan : <select size="1" id="jabatan">
                             <option>Direktur</option>
                             <option>Manager</option>
                             <option>Accounting</option>
@@ -50,7 +50,6 @@
       <input type="reset" value="Reset" >
       <input type="submit" value="Simpan" onclick="simpan()">
 </form>
-
 ~~~~
 # Change Logs 
 ## Senin, 21 Mei 2018
