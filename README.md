@@ -64,9 +64,3 @@
 ## Senin, 25 Juni 2016
 <<<<<<< HEAD
 - menjalankan  web CRUD NodeJS MongoDB https://github.com/EnjangDwiKartini/NodeJS-MongoDB-Belajar
-=======
-- menjalankan  web CRUD NodeJS MongoDB https://github.com/EnjangDwiKartini/NodeJS-MongoDB-Belajar
-
-
-
->>>>>>> 5adf6ff6b109623f0936455f0c15a14b05144ca2
