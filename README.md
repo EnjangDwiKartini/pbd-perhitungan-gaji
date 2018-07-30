@@ -29,6 +29,8 @@
 ## Senin, 14 Mei 2018
     - Pada pertemuan ini saya membuat database dbgaji dan form input data :
     <body>
+    
+    ~~~~
 <form>
   <td>Nama Karyawan : <input type="text" id="nm"></td><br><br>
   <td>Alamat :  <input type="text" id="alamat"></td><br><br>
@@ -48,6 +50,8 @@
       <input type="reset" value="Reset" >
       <input type="submit" value="Simpan" onclick="simpan()">
 </form>
+
+~~~~
 # Change Logs 
 ## Senin, 21 Mei 2018
     - Pada Pertemuan ini saya membuat project baru yang saya gunakan untuk mempelajari web CRUD dengan nodeJS dan mongoDB
